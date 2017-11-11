@@ -10,7 +10,7 @@ class Dropdown extends Component {
         this.setState({ isOpened: !this.state.isOpened });
     }
     render() {
-        console.log(' isOpened', this.state.isOpened);
+        console.log('isOpened', this.state.isOpened);
         let dropdownText;
 
         if (this.state.isOpened) {
